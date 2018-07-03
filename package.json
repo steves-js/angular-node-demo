@@ -1,0 +1,32 @@
+{
+  "name": "angular-node-demo",
+  "version": "1.0.0",
+  "description": "Demo app for angular front end and node api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/main.js",
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steves-js/angular-node-demo.git"
+  },
+  "keywords": [
+    "angular",
+    "node"
+  ],
+  "author": "steves-js",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/steves-js/angular-node-demo/issues"
+  },
+  "homepage": "https://github.com/steves-js/angular-node-demo#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "jasmine": "^3.1.0",
+    "jasmine-ts-console-reporter": "^3.1.1"
+  }
+}
